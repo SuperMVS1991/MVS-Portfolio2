@@ -8,8 +8,63 @@ body {
   padding: 0;
 }
 
+/* HEADER SECTION */
+
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+
+/* MAIN CONTENT */
+
+section{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aqua;
+}
+
+section .title-element{
+  flex: 0 0 15%;
+  background-color: red;
+  /* flex-wrap: 0 0 20%; */
+}
+section div{
+  flex: 0 0 65%;
+  /* width: 300px; */
+}
+
+.about-content{
+  display: flex;
+}
+
+
+/* PROFILE IMAGE */
+.profile-image{
+  height: 200px;
+  margin: 10px
+}
+
+.about-text{
+  padding: 1%
+}
+.button {
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+div {
+  /* width: 300px; */
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
 }

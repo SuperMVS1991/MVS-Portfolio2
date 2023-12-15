@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- CREATE HEADER, MAIN, FOOTER -->
@@ -12,13 +12,78 @@
       <!-- WE WILL NEED DEV'S NAME, PHOTO, NAV WITH LINKS TO ABOUT, PORTFOLIO, CONTACT -->
       <h1>Mike</h1>
       <nav>
-        <a href="#">ABOUT</a>
-        <a href="#">CONTACT</a>
-        <a href="#">PORTFOLIO</a>
+        <a href="#about">ABOUT</a>
+        <a href="#portfolio">PORTFOLIO</a>
+        <a href="#contact">CONTACT</a>
+        <a href="#navigation">NAVIGATION</a>
+        <button type="button" onclick="/path/to/gotoabout.sh">about</button>
+        <button type="button" onclick="/path/to/gotowork.sh">work</button>
+        <button type="button" onclick="/path/to/gotoapps.sh">apps</button>
       </nav>
     </header>
     <main>
-        <!-- WE NEED A SECTIN FOR ABOUT, A SECTON FOR PORTFOLIO, A SECTION FOR CONTACT -->
+      <!-- WE NEED A SECTIN FOR ABOUT, A SECTON FOR PORTFOLIO, A SECTION FOR CONTACT -->
+      <section id="about">
+        <div class="title-element">  
+          <h2>About</h2>
+        </div>
+        <div class="about-content">
+          <img src="./assets/images/profile.jpg" class="profile-image" />
+          <div class="about-text">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos quos
+              officiis reiciendis laboriosam. Nisi ea non vitae molestias
+              recusandae autem hic explicabo quidem dignissimos odit! Voluptatum
+              inventore omnis aliquam animi et fuga deserunt quibusdam, dicta,
+              fugiat dolorem ratione maxime esse? Expedita, laboriosam iure!
+              Similique perspiciatis dolorum excepturi. Cumque, rem praesentium.
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro obcaecati at facilis eius amet optio velit id quam sint soluta numquam nisi, accusamus aperiam ut?</p>
+            <button type="button" onclick="/path/to/gotoabout.sh">about</button>
+            <button type="button" onclick="/path/to/gotowork.sh">work</button>
+            <button type="button" onclick="/path/to/gotoapps.sh">apps</button>
+            <button type="button" onclick="/path/to/gottocontact.sh">contact</button>
+          </div>
+        </div>
+      </section>
+      <section id="portfolio">
+        <div class="title-element">
+          <h2>Portfolio</h2>
+        </div>
+        <div class="work-content">
+          <div class="portfolio-text">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos quos
+              officiis reiciendis laboriosam. Nisi ea non vitae molestias
+              recusandae autem hic explicabo quidem dignissimos odit! Voluptatum
+              inventore omnis aliquam animi et fuga deserunt quibusdam, dicta,
+              fugiat dolorem ratione maxime esse? Expedita, laboriosam iure!
+              Similique perspiciatis dolorum excepturi. Cumque, rem praesentium.
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro obcaecati at facilis eius amet optio velit id quam sint soluta numquam nisi, accusamus aperiam ut?</p>
+
+        <button type="button" onclick="/path/to/gotoabout.sh">about</button>
+        <button type="button" onclick="/path/to/gotowork.sh">work</button>
+        <button type="button" onclick="/path/to/gotoapps.sh">apps</button>
+        </div>
+      </section>
+
+            <!-- clickable buttons/boxes -->
+      
+      
+
+      </section>
+      <section id="contact">
+        <div class="title-element">  
+          <h2>contact</h2>
+        </div>
+        <div>
+        <button type="button" onclick="/path/to/gotoabout.sh">about</button>
+        <button type="button" onclick="/path/to/gotowork.sh">work</button>
+        <button type="button" onclick="/path/to/gotoapps.sh">apps</button>
+        <button type="button" onclick="/path/to/gottocontact.sh">contact</button>
+        </div>
+      </section>
     </main>
     <footer></footer>
   </body>
