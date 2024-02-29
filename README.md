@@ -33,3 +33,4 @@
     Clicking on a navigation link or button triggers the corresponding action defined in the onclick attribute.
     The webpage is designed to provide information about the individual, showcase their portfolio, and allow users to contact them through various channels. -->
 
+file:///C:/Users/M_Slo/Bootcamp/challenges/MVS-Challenge2/index.html
